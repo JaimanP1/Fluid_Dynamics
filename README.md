@@ -1,5 +1,9 @@
 # Nonlinear water waves research
 
+Summer '23 research with Professor W. Choi, NJIT
+
+Investigating dynamics of a contained fluid subject to a vertical oscillation while also including nonlinear contributions of surface tension and viscosity 
+
 ## How this works
 
 The WaveAnimation.m file does exactly what the title suggests, produces a wave animation
