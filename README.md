@@ -8,7 +8,7 @@ Investigating dynamics of a contained fluid subject to a vertical oscillation wh
 
 ### System
 
-The System folder contains files which work by passing a coupled nonlinear, second order system of differential equations through a Runge-Kutta routine
+The System folder contains files which work by passing a coupled nonlinear, third order system of differential equations through a Runge-Kutta routine
 
 1. The system4implement_v4.m file gives control over the input, loop, and output for the routine
 2. The system4_v6.m file contains the actual system
