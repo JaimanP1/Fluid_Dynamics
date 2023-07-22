@@ -6,7 +6,7 @@ Investigating dynamics of a contained fluid subject to a vertical oscillation wh
 
 ## How this works
 
-The WaveAnimation.m file does exactly what the title suggests, produces a wave animation
+### System
 
 The System folder contains files which work by passing a coupled nonlinear, second order system of differential equations through a Runge-Kutta routine
 
@@ -23,3 +23,7 @@ The EnvelopeSystem folder contains files to plot an envelope for the solutions o
 1. The EnvelopeImplement_v4.m file gives control over the input, loop, and output for the routine
 2. The EnvelopeSystem_v3.m contains the actual system
 3. As above, the files work by calling the rk4 method and parameters from respective files
+
+### Wave Animation
+
+The WaveAnimation.m file produces a wave animation that obeys solutions to the system described above
