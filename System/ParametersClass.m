@@ -5,6 +5,7 @@ classdef ParametersClass
         %%
         %parameters to change
         
+        %controls nonlinearity, set to 0 for linear
         function alpha = getAlpha()
         alpha = 1;
         end
@@ -13,26 +14,32 @@ classdef ParametersClass
         gravity = 1;
         end
         
+        %non dimensionalized surface tension parameter
         function gamma = getGamma()
         gamma = 1;
         end
         
+        %amplitude of forcing function
         function forcing = getForcing()
         forcing = .01;
         end
         
+        %length of tank used, in cm
         function length = getLength()
         length = 12.3;
         end
         
+        %frequency
         function mode = getMode()
         mode = 1;
         end
 
+        %density
         function rho = getRho()
         rho = 1;
         end
 
+        %viscosity
         function nu = getNu()
         nu = 0;
         end
